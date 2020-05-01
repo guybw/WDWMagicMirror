@@ -1,0 +1,41 @@
+HTTrack3.49-2 launched on Wed, 11 Mar 2020 15:01:10 at http://disneylivecams.com/WDWtoday/index.php +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js +*.svg -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://disneylivecams.com/WDWtoday/index.php -O "/home/pi/websites/WDW" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js +*.svg -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:08:24	Error: 	"Not Found" (404) at link disneylivecams.com/WDWtoday/; path=/ (from disneylivecams.com/WDWtoday/index.php)
+15:08:25	Error: 	"Forbidden" (403) at link https://codepen.io/SitePoint/pen/ZbGwqe (from disneylivecams.com/WDWtoday/index.php)
+15:08:27	Error: 	"Not Found" (404) at link disneylivecams.com/WDWtoday/edmonton.php (from disneylivecams.com/WDWtoday/index.php)
+15:08:27	Error: 	"Not Found" (404) at link disneylivecams.com/WDWtoday/jellyfish.php (from disneylivecams.com/WDWtoday/index.php)
+15:08:27	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://sb.scorecardresearch.com/robots.txt (from disneylivecams.com/WDWtoday/index.php)
+15:08:27	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1 (from disneylivecams.com/WDWtoday/index.php)
+15:08:27	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1 (from disneylivecams.com/WDWtoday/index.php)
+15:08:28	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1 (from disneylivecams.com/WDWtoday/index.php)
+15:08:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): disneylivecams.com/WDWtoday/images/MK.png
+15:08:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): disneylivecams.com/WDWtoday/images/EP.png
+15:08:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
+15:08:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): disneylivecams.com/WDWtoday/images/DHS.png
+15:10:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): disneylivecams.com/WDWtoday/images/AK.png
+15:10:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): disneylivecams.com/WDWtoday/images/WaterParks.png
+15:11:22	Error: 	"Not Found" (404) at link pagead2.googlesyndication.com/pagead/js/adsbygoogle.js (from disneylivecams.com/WDWtoday/index.php)
+15:11:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): disneylivecams.com/WDWtoday/images/DisSprings.png
+15:12:43	Error: 	"Forbidden" (403) at link https://assets.codepen.io/assets/editor/live/console_runner-d0a557e5cb67f9cd9bbb9673355c7e8e.js (from disneylivecams.com/WDWtoday/index.php)
+15:12:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): disneylivecams.com/WDWtoday/images/transportation.png
+15:13:10	Error: 	"Forbidden" (403) at link https://assets.codepen.io/assets/editor/live/events_runner-21174b4c7273cfddc124acb0876792e0.js (from disneylivecams.com/WDWtoday/index.php)
+15:13:11	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): disneylivecams.com/WDWtoday/images/blank.png
+15:13:14	Error: 	"Forbidden" (403) at link https://assets.codepen.io/assets/editor/live/css_live_reload_init-7618a0de08795409d8f6c9ef6805f7b2.js (from disneylivecams.com/WDWtoday/index.php)
+15:13:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://weatherwidget.io/js/widget.min.js
+15:13:22	Error: 	"Not Found" (404) at link https://codepen.io/assets/reset/normalize.css (from disneylivecams.com/WDWtoday/index.php)
+15:13:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js
+15:15:44	Error: 	"Forbidden" (403) at link https://assets.codepen.io/assets/common/stopExecutionOnTimeout-53beeb1a007ec32040abaf4c9385ebfc.js (from disneylivecams.com/WDWtoday/index.php)
+15:15:44	Error: 	"" (404) at link disneylivecams.com/WDWtoday/edmonton.php (from disneylivecams.com/WDWtoday/index.php)
+15:15:44	Error: 	"Not Found" (404) at link pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.disneylivecams_com,DomainId.65086 (from disneylivecams.com/WDWtoday/index.php)
+15:15:44	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.google-analytics.com/analytics.js (from disneylivecams.com/WDWtoday/index.php)
+15:15:44	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.google-analytics.com/analytics.js (from disneylivecams.com/WDWtoday/index.php)
+15:15:44	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://www.google-analytics.com/analytics.js (from disneylivecams.com/WDWtoday/index.php)
+
+HTTrack Website Copier/3.49-2 mirror complete in 14 minutes 34 seconds : 50 links scanned, 41 files written (43658132 bytes overall) [43134559 bytes received at 49353 bytes/sec], 12441816 bytes transferred using HTTP compression in 45 files, ratio 94%, 1.1 requests per connection
+(15 errors, 15 warnings, 0 messages)
