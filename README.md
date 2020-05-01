@@ -8,5 +8,7 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/sdetweil/MagicMirror_scrip
 
 bash -c "$(curl -sL https://raw.githubusercontent.com/sdetweil/MagicMirror_scripts/master/fixuppm2.sh)"
 
+#Install Apache
+sudo apt-get install apache2
 # Install HTTtrack
 sudo apt-get install httrack
