@@ -2,7 +2,7 @@
 This script should help take your RaspberryPI from a fresh built system to having WDW today running!
 
 ****Tesing do not run******
-wget https://github.com/guybw/WDWMagicMirror.git
+git clone https://github.com/guybw/WDWMagicMirror.git
 
 
 
