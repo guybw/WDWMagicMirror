@@ -1,6 +1,12 @@
 # WDWMagicMirror
 This script should help take your RaspberryPI from a fresh built system to having WDW today running!
 
+****Tesing do not run******
+wget https://github.com/guybw/WDWMagicMirror.git
+
+
+
+
 First Update the Pi
 > sudo apt-get update
 > sudo apt-get upgrade
